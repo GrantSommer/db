@@ -1,0 +1,25 @@
+{
+  "name": "discord-db",
+  "version": "1.0.0",
+  "description": "Discord Bot Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrantSommer/db.git"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "db",
+    "discord-db"
+  ],
+  "author": "Grant Sommer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrantSommer/db/issues"
+  },
+  "homepage": "https://github.com/GrantSommer/db#readme"
+}
