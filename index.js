@@ -5,21 +5,21 @@ var base={
 };
 
 class Database {
-  constructor(name,loc,default){
+  constructor(name,loc,def){
     if(!loc){
       loc=base.dir+"/"+name+".json";
     }else{
       loc=loc+name;
     }
-    if(!default){
-      default=[];
+    if(!def){
+      def=[];
     }
-    this.default=default;
+    this.def=def;
     this.loc=loc;
     if(fs.existsSync(loc)){
       this.data=JSON.parse(fs.readFileSync(loc,"utf8"));
     }else{
-      this.data=this.default;
+      this.data=this.def;
       this.save();
     }
   }
